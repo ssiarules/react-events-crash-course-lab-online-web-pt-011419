@@ -21,7 +21,7 @@ export default class ChromeBoisDomain extends Component {
    */
 
    handleOnClick = (event) => {
-     toggleCycling
+     toggleCycling()
    }
 
 
