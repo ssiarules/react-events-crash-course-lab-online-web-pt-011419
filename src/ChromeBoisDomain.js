@@ -44,6 +44,7 @@ handleKeyPress = (event) => {
     return (
       <canvas
         onMouseMove={this.handleMouseMove}
+        onClick=(this.handleOnClick)
         width='900'
         height='600'
         tabIndex="0">
